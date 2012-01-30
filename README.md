@@ -20,7 +20,7 @@ Add the gem to your bundle
 
 Add the javascript file to application.js
 
-  //= require coffeescript-router
+    //= require coffeescript-router
   
 ## Usage
 
