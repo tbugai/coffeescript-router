@@ -10,7 +10,7 @@ From project root:
 
 Include the resulting minified javascript file in your webpage
     
-    <javascript src="coffeescript-router.min.js"></javascript>
+    <script src="coffeescript-router.min.js"></script>
 
 ## Install from gem
 
