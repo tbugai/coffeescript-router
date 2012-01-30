@@ -6,7 +6,7 @@ uglify = require './node_modules/uglify-js'
 prodSrcCoffeeDir     = 'src/coffeescript'
 testSrcCoffeeDir     = 'test/coffeescript'
 
-prodTargetJsDir      = 'src/js'
+prodTargetJsDir      = 'vendor/assets/javascripts'
 testTargetJsDir      = 'test/js'
 
 prodTargetFileName   = 'coffeescript-router'

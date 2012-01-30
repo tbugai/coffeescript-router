@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["tim@collectiveidea.com"]
   gem.description   = %q{Standalone CoffeeScript Router w/ Rails style named parameters}
   gem.summary       = %q{Standalone CoffeeScript Router}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/tbugai/coffeescript-router"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "coffeescript-router"
   gem.require_paths = ["lib"]
   gem.version       = Coffeescript::Router::VERSION
+  
+  gem.add_dependency "rails", ">= 3.1"
 end
